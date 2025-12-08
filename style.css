@@ -5,14 +5,13 @@
 }
 
 body {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -20,74 +19,76 @@ body {
 
 main {
     width: 100%;
-    padding: 2rem;
+    padding: 4rem;
 }
 
 .container {
-    max-width: 500px;
+    max-width: 900px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.content {
+    flex: 1;
 }
 
 .headshot {
-    margin-bottom: 2rem;
+    flex-shrink: 0;
 }
 
 .headshot img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
+    width: 220px;
+    height: auto;
     object-fit: cover;
-    filter: grayscale(100%);
-    transition: filter 0.3s ease;
-}
-
-.headshot img:hover {
-    filter: grayscale(0%);
 }
 
 h1 {
     font-weight: 300;
     font-size: 2rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.02em;
     margin-bottom: 1.5rem;
-    text-transform: uppercase;
 }
 
 .bio {
     font-size: 1rem;
     font-weight: 300;
-    color: #ccc;
-    margin-bottom: 2.5rem;
-    letter-spacing: 0.02em;
+    color: #333;
+    margin-bottom: 2rem;
+    letter-spacing: 0.01em;
 }
 
 .links {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 1.5rem;
 }
 
 .links a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 300;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     padding-bottom: 2px;
     border-bottom: 1px solid transparent;
-    transition: border-color 0.3s ease, color 0.3s ease;
+    transition: border-color 0.3s ease;
 }
 
 .links a:hover {
-    border-bottom-color: #fff;
+    border-bottom-color: #000;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+    main {
+        padding: 2rem;
+    }
+    
     .container {
-        padding: 1rem;
+        flex-direction: column-reverse;
+        gap: 2rem;
     }
     
     h1 {
@@ -95,8 +96,7 @@ h1 {
     }
     
     .headshot img {
-        width: 120px;
-        height: 120px;
+        width: 160px;
     }
     
     .links {
@@ -104,6 +104,6 @@ h1 {
     }
     
     .links a {
-        font-size: 0.75rem;
+        font-size: 0.85rem;
     }
 }
