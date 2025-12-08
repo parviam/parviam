@@ -7,11 +7,9 @@
 body {
     background-color: #fff;
     color: #000;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
     min-height: 100vh;
-    display: flex;
-    align-items: center;
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -19,51 +17,30 @@ body {
 
 main {
     width: 100%;
+    max-width: 900px;
     padding: 4rem;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 4rem;
-}
-
-.content {
-    flex: 1;
-}
-
-.headshot {
-    flex-shrink: 0;
-}
-
-.headshot img {
-    width: 220px;
-    height: auto;
-    object-fit: cover;
-}
-
 h1 {
-    font-weight: 300;
-    font-size: 2rem;
-    letter-spacing: 0.02em;
-    margin-bottom: 1.5rem;
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 0;
 }
 
-.bio {
+.contact {
+    font-style: italic;
     font-size: 1rem;
     font-weight: 300;
     color: #333;
-    margin-bottom: 2rem;
-    letter-spacing: 0.01em;
+    margin-bottom: 2.5rem;
 }
 
 .links {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .links a {
@@ -81,29 +58,63 @@ h1 {
     border-bottom-color: #000;
 }
 
+.bio-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.bio {
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+    letter-spacing: 0.01em;
+}
+
+.bio p {
+    margin-bottom: 1rem;
+}
+
+.bio p:last-child {
+    margin-bottom: 0;
+}
+
+.bio a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.headshot {
+    flex-shrink: 0;
+}
+
+.headshot img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
 @media (max-width: 700px) {
     main {
         padding: 2rem;
-    }
-    
-    .container {
-        flex-direction: column-reverse;
-        gap: 2rem;
     }
     
     h1 {
         font-size: 1.5rem;
     }
     
+    .bio-section {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    
     .headshot img {
-        width: 160px;
+        width: 300px;
     }
     
     .links {
         gap: 1rem;
-    }
-    
-    .links a {
-        font-size: 0.85rem;
     }
 }
