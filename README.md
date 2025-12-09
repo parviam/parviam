@@ -1,8 +1,6 @@
 # Parv Mahajan
 
-*parvm ( at ) gatech ( dot ) edu*
-
-[Resume](resume.pdf) • [LinkedIn](https://linkedin.com/in/parv-mahajan) • [X/Twitter](https://x.com/parvmahajan0) • [Substack](https://parvmahajan.substack.com) • [LessWrong](https://www.lesswrong.com/users/parv-mahajan) • [Google Scholar](https://scholar.google.com/citations?user=6Bn9wJcAAAAJ&hl=en)
+[parvmahajan.com](www.parvmahajan.com)
 
 ---
 
