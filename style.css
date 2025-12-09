@@ -173,7 +173,7 @@ h1 {
 }
 
 .post-content {
-    max-width: 700px;
+    max-width: 100%;
     font-size: 1rem;
     color: #333;
     line-height: 1.7;
@@ -267,4 +267,29 @@ h1 {
 
 .post-footer a:hover {
     border-bottom-color: #000;
+}
+
+.post-nav-top {
+    margin-bottom: 2rem;
+}
+
+.post-nav-top a {
+    color: #000;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.post-nav-top a:hover {
+    border-bottom-color: #000;
+}
+
+/* Site footer */
+.site-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 0.9rem;
 }

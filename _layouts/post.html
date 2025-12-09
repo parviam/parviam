@@ -2,6 +2,10 @@
 layout: default
 ---
 <article class="post">
+    <nav class="post-nav-top">
+        <a href="{{ '/' | relative_url }}">← Back to home</a>
+    </nav>
+
     <header class="post-header">
         <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
         <h1>{{ page.title }}</h1>
