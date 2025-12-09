@@ -37,7 +37,7 @@ As Neel Nanda [alluded to](https://80000hours.org/podcast/episodes/neel-nanda-ca
 
 Text expansions help me focus on the hard parts of whatever I’m doing without spending 45 seconds trying to pull up and copy over yet another profile link. They also reduce context switches and therefore potential excuses for procrastination or distraction. Consider trying them out\!
 
-# Appendix: Select Text Expansions I Find Useful
+## Appendix: Select Text Expansions I Find Useful
 
 /iacy
 ```
