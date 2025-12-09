@@ -1,37 +1,35 @@
 ---
 layout: post
 title: "Seriously, use text expansions"
-date: 2024-12-09
+date: 2025-12-09
 ---
-
-# Seriously, use text expansions
 
 You probably type some things a lot, especially if you do non-trivial amounts of administrative or communicative work. There are also probably things you would type more if it was easier to\! For instance:
 
 * Link to your personal website  
-  * Your email address or phone number  
-  * Your LinkedIn  
-  * Your calendar booking link  
-  * Your GitHub profile  
-  * Your Google Scholar  
+    * Your email address or phone number  
+    * Your LinkedIn  
+    * Your calendar booking link  
+    * Your GitHub profile  
+    * Your Google Scholar  
 * The website/email/contact of an organization you represent  
-  * “I am contacting you on behalf of XYZ org. We work on…”  
+    * “I am contacting you on behalf of XYZ org. We work on…”  
 * Command aliases across servers/terminals  
-  * Commit message templates  
-  * SSH incantations  
+    * Commit message templates  
+    * SSH incantations  
 * Common phrases/sentence fragments  
-  * “Just wanted to follow up on this\!”  
-  * “Please reach out to”  
-  * “Please don’t hesitate to reach out if you have any questions or concerns.”  
+    * “Just wanted to follow up on this\!”  
+    * “Please reach out to”  
+    * “Please don’t hesitate to reach out if you have any questions or concerns.”  
 * LLM prompts  
-  * Something to the effect of “think *really* carefully about this”  
-  * Style/content guidelines for deep research, specialized agents  
-  * “Help me prepare for a meeting with this person”  
-  * “Search XYZ docs to implement this”  
-  * “I can’t find this person’s contact”  
-  * “Please review the attached for grammar, tone, clarity and flow…"  
-  * “Help me write a prompt that”  
-  * “My political enemy has presented this proposal. Please red-team…”
+    * Something to the effect of “think *really* carefully about this”  
+    * Style/content guidelines for deep research, specialized agents  
+    * “Help me prepare for a meeting with this person”  
+    * “Search XYZ docs to implement this”  
+    * “I can’t find this person’s contact”  
+    * “Please review the attached for grammar, tone, clarity and flow…"  
+    * “Help me write a prompt that”  
+    * “My political enemy has presented this proposal. Please red-team…”
 
 Save that time by using text expansions, shortcuts triggered by a short phrase, through something like [AutoHotKey](https://www.autohotkey.com/) (Windows) or [Alfred](https://www.alfredapp.com/) (Mac). This can be set up in \<30 minutes and is fairly intuitive; Claude is great at writing AutoHotKey scripts.
 

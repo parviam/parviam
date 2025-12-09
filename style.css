@@ -136,7 +136,7 @@ h1 {
 .post-list .post-date {
     color: #666;
     font-size: 0.9rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     font-variant-numeric: tabular-nums;
 }
 
@@ -233,6 +233,8 @@ h1 {
     overflow-x: auto;
     margin-bottom: 1rem;
     border-radius: 3px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .post-content pre code {
