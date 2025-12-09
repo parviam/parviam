@@ -21,9 +21,10 @@ One of the fastest paths to ASI is automation of AI R&D, which could allow for a
 
 Based on [some previous work](https://epoch.ai/blog/interviewing-ai-researchers-on-automation-of-ai-rnd) from David Owen at Epoch AI, we split the AI R&D workflow into "engineering" and "non-engineering" tasks.  
 
-<img src="/images/2025-12-02-tastybench/epoch.png" alt="Epoch AI RD Workflow">
-
-*Non-engineering is the left half, while engineering is the right.*
+<figure>
+  <img src="/images/2025-12-02-tastybench/epoch.png" alt="Epoch AI RD Workflow">
+  <figcaption>Non-engineering is the left half, while engineering is the right.</figcaption>
+</figure>
 
 There are lots of benchmarks examining engineering skills (e.g., [HCAST](https://metr.substack.com/p/2025-03-17-hcast), [SWE-Bench](https://www.swebench.com/), [internal suites](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf)), but not much on non-engineering skills. 
 
@@ -119,9 +120,10 @@ Below are two project ideas improving LLM reasoning capabilities such as math an
 
 We tested Claude Sonnet 4.5, Gemini 2.5 Pro, and GPT 5.1, as well as some weaker open source models, and found them all \~equally ineffective at predicting citation velocity, no matter which prompt we used. Here are representative results for the goodharted prompt:  
 
-<img src="/images/2025-12-02-tastybench/model_comparison_barchart.png" alt="Model comparison barchart">
-
-*Here, b refers to citation velocity.*
+<figure>
+  <img src="/images/2025-12-02-tastybench/model_comparison_barchart.png" alt="Model comparison barchart">
+  <figcaption>Here, b refers to citation velocity.</figcaption>
+</figure>
 
 One unfair failure mode here for the model might be that the “core idea” simply doesn’t give very much information about exact technical details and scope, which probably makes it difficult to predict relative citation velocity. So, for the subset of 25 papers that had full-text html versions on arXiv, we asked Claude Sonnet 4.5 to summarize the paper’s methods, formulations, and overall technical approach in 300-400 words and gave that to the judging model instead of the “core idea.” 
 
@@ -147,9 +149,10 @@ We think citation velocity is a flawed metric for a couple of reasons:
 
 1. It may capture other confounding variables better than it captures research taste. For instance, we may actually just be measuring experiments' access to compute or the prestige of the author list. We tested the citation velocity's correlation with a couple of other metrics and found the biggest culprit here is probably just total citations:
 
-<img src="/images/2025-12-02-tastybench/heatmap.png" alt="Heatmap">
-
-*Again, a and b are parameters of the linear model citations(t) \= a \+ bt, so b is citation velocity.*
+<figure>
+  <img src="/images/2025-12-02-tastybench/heatmap.png" alt="Heatmap">
+  <figcaption>Again, a and b are parameters of the linear model citations(t) = a + bt, so b is citation velocity.</figcaption>
+</figure>
 
 2. We only select from published papers whose experiments ‘succeeded’. This means we are probably not measuring whether the LLM knows when something *doesn’t* work.  
 3. It’s unclear whether humans are any good at this (there’s no human baseline\!), and how necessary this is for R&D acceleration. 

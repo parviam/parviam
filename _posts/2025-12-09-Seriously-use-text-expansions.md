@@ -35,9 +35,10 @@ Save that time by using text expansions, shortcuts triggered by a short phrase, 
 
 As Neel Nanda [alluded to](https://80000hours.org/podcast/episodes/neel-nanda-career-advice-frontier-ai-companies/#how-neel-uses-llms-to-get-much-more-done-000908) in his 80k interview, text expansions can substantially reduce friction to using LLMs in Very Obvious Ways to accelerate your work. For instance, I’m now much more likely to get tone feedback on important communication and use LLM help to aggressively red-team rough ideas.
 
-Text expansions help me focus on the hard parts of whatever I’m doing without spending 45 seconds trying to pull up and copy over yet another profile link. They also reduce context switches and therefore potential excuses for procrastination or distraction. Consider trying them out\!
+Text expansions help me focus on the hard parts of whatever I'm doing without spending 45 seconds trying to pull up and copy over yet another profile link. They also reduce context switches and therefore potential excuses for procrastination or distraction. Consider trying them out\!
 
-## Appendix: Select Text Expansions I Find Useful
+<details>
+<summary>Appendix: Select Text Expansions I Find Useful</summary>
 
 /iacy
 ```
@@ -80,3 +81,5 @@ Find an email address for \[PERSON'S NAME\] who \[RELEVANT CONTEXT: works at ORG
 ```
 Use greater rigor, attention to detail, and multi-angle verification. Start by outlining the task and breaking down the problem into subtasks. For each subtask, explore multiple perspectives, even those that seem initially irrelevant or improbable. Purposefully attempt to disprove or challenge your own assumptions at every step. Triple-verify everything. Critically review each step, scrutinizing your logic, assumptions, and conclusions while explicitly calling out uncertainties and alternative viewpoints. Independently verify your reasoning using alternative methodologies or tools, cross-checking every fact, inference, and conclusion against external data, calculation, or authoritative sources. Deliberately seek out and employ at least twice as many verification tools or methods as you typically would. Use mathematical validations, web searches, logic evaluation frameworks, and additional resources explicitly and liberally to cross-verify your claims. Even if you feel entirely confident in your solution, explicitly dedicate additional time and effort to systematically search for weaknesses, logical gaps, hidden assumptions, or oversights. Clearly document these potential pitfalls and how you've addressed them. Once you're fully convinced your analysis is robust and complete, deliberately pause and force yourself to reconsider the entire reasoning chain one final time from scratch. Explicitly detail this last reflective step.
 ```
+
+</details>
