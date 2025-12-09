@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parv Mahajan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <main>
+---
+layout: default
+---
         <h1>Parv Mahajan</h1>
         <p class="contact">parvm ( at ) gatech ( dot ) edu</p>
         
@@ -18,7 +8,7 @@
             <a href="resume.pdf" target="_blank">Resume</a>
             <a href="https://linkedin.com/in/parv-mahajan" target="_blank">LinkedIn</a>
             <a href="https://x.com/parvmahajan0" target="_blank">X/Twitter</a>
-            <a href="https://parvmahajan.substack.com" target="_blank">Substack</a>
+            <a href="{{ '/blog' | relative_url }}">Blog</a>
             <a href="https://www.lesswrong.com/users/parv-mahajan" target="_blank">LessWrong</a>
             <a href="https://scholar.google.com/citations?user=6Bn9wJcAAAAJ&hl=en" target="_blank">Google Scholar</a>
         </div>
@@ -32,7 +22,7 @@
                     I'm highly interested in engaging national security and academic communities to address catastrophic risks from AI, especially under short <a href="https://www.lesswrong.com/posts/gabPgK9e83QrmcvbK/what-s-up-with-anthropic-predicting-agi-by-early-2027-1" target="_blank">timelines</a>. Some of my previous work involves studying LLM use in wargaming and benchmarking <a href="https://www.lesswrong.com/posts/Mxsy7wYvsCRv5dGrw/tastybench-toward-measuring-research-taste-in-llm" target="_blank">non-engineering AI R&D automation</a>. I also authored a Georgia Tech RFI <a href="https://docs.google.com/document/d/1p-mOQTscqrnTDjfuUNyF841Fv8DWavy4Da6I5xT7tX4/edit?usp=sharing" target="_blank">response</a> to the National AI R&D Action Plan.
                 </p>
                 <p>
-                    Before this, I worked at the <a href="https://www.gtri.gatech.edu" target="_blank">Georgia Tech Research Institute</a>, a DoD-affiliated applied research lab, where I focused on extremely novel cyberbiosecurity threats and evaluating frontier models for CBRN risks. I'm based between Atlanta and Berkeley, and write occasionally on my <a href="https://parvmahajan.substack.com" target="_blank">Substack</a> and <a href="https://www.lesswrong.com/users/parv-mahajan" target="_blank">LessWrong</a>. Always happy to talk to folks - have a very low bar for reaching out!
+                    Before this, I worked at the <a href="https://www.gtri.gatech.edu" target="_blank">Georgia Tech Research Institute</a>, a DoD-affiliated applied research lab, where I focused on extremely novel cyberbiosecurity threats and evaluating frontier models for CBRN risks. I'm based between Atlanta and Berkeley, and write occasionally on my <a href="{{ '/blog' | relative_url }}">blog</a> and <a href="https://www.lesswrong.com/users/parv-mahajan" target="_blank">LessWrong</a>. Always happy to talk to folks - have a very low bar for reaching out!
                 </p>
             </div>
             
@@ -40,6 +30,3 @@
                 <img src="headshot.jpg" alt="Headshot">
             </div>
         </div>
-    </main>
-</body>
-</html>
