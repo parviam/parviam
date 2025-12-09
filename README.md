@@ -1,20 +1,13 @@
-<h2 align="center">Hello! 👋🏽 I'm Parv Mahajan!</h2>
-<p align="center">
-  <a href="https://github.com/parviam/parviam/blob/7f92b02ff9cfa528d8ba03f44bd5f326b83a11dc/Github%20Sep%2024%20Resume%20-%20Parv%20Mahajan-1.pdf">Resume</a> • 
-  <a href="mailto:parvm@gatech.edu">parvm@gatech.edu</a> •
-  <a href="https://www.linkedin.com/in/jacob-aguirre9/">LinkedIn</a> • 
-  <a href="https://www.instagram.com/vrap_it_up/">Instagram</a>
-</p>
+# Parv Mahajan
 
-I'm in the integrated Masters/Bachelors Computer Science program at Georgia Tech specializing in machine intelligence and system modeling. I am employed as:
-- an intern at the [Georgia Tech Research Institute Advanced Concepts Laboratory](https://gtri.gatech.edu/laboratories/advanced-concepts-laboratory) where I work on biosecurity and DNA-based cyber threats
-- a linear algebra curriculum developer at the School of Mathematics, where I help improve and maintain [amazing massively online open courses](https://www.edx.org/school/gtx)
+*parvm ( at ) gatech ( dot ) edu*
 
--------
-<h3 align="center">About Me 👨🏽‍🔬</h3>
+[Resume](resume.pdf) • [LinkedIn](https://linkedin.com/in/parv-mahajan) • [X/Twitter](https://x.com/parvmahajan0) • [Substack](https://parvmahajan.substack.com) • [LessWrong](https://www.lesswrong.com/users/parv-mahajan) • [Google Scholar](https://scholar.google.com/citations?user=6Bn9wJcAAAAJ&hl=en)
 
-- 🏃🏽‍♂️ I love running, and am currently training up for a 10K!
-- 🗣️ I enjoy learning about language and international culture! I am native in English and Hindi, and conversational in German.
-- 🎷 I've been playing tenor saxophone for 7 years and love hearing the ASO!
-- 🎼 I'm an award-winning classical composer; I love working with small ensembles on new music and pushing the boundaries of sound.
-- I am always looking for research projects and opportunities to help with; feel free to email me if you want to connect!
+---
+
+Hi! I'm an undergraduate studying Computer Science at Georgia Tech, but am currently on leave to be an [Astra Fellow](https://www.constellation.org/programs/astra-fellowship) (fieldbuilding track) at Constellation in Berkeley, working under Alexandra Bates. I also serve as the Collaborative Initiatives Lead at the [AI Safety Initiative at Georgia Tech](https://www.aisi.dev), a community of technical and policy researchers focused on mitigating catastrophic risks from AI.
+
+I'm highly interested in engaging national security and academic communities to address catastrophic risks from AI, especially under short [timelines](https://www.lesswrong.com/posts/gabPgK9e83QrmcvbK/what-s-up-with-anthropic-predicting-agi-by-early-2027-1). Some of my previous work involves studying LLM use in wargaming and benchmarking [non-engineering AI R&D automation](https://www.lesswrong.com/posts/Mxsy7wYvsCRv5dGrw/tastybench-toward-measuring-research-taste-in-llm). I also authored a Georgia Tech RFI [response](https://docs.google.com/document/d/1p-mOQTscqrnTDjfuUNyF841Fv8DWavy4Da6I5xT7tX4/edit?usp=sharing) to the National AI R&D Action Plan.
+
+Before this, I worked at the [Georgia Tech Research Institute](https://www.gtri.gatech.edu), a DoD-affiliated applied research lab, where I focused on extremely novel cyberbiosecurity threats and evaluating frontier models for CBRN risks. I'm based between Atlanta and Berkeley, and write occasionally on my [Substack](https://parvmahajan.substack.com) and [LessWrong](https://www.lesswrong.com/users/parv-mahajan). Always happy to talk to folks - havtimelines. Some of my previous work e a very low bar for reaching out!

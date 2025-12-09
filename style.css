@@ -17,7 +17,7 @@ body {
 
 main {
     width: 100%;
-    max-width: 900px;
+    max-width: 1100px;
     padding: 4rem;
 }
 
@@ -88,10 +88,11 @@ h1 {
 
 .headshot {
     flex-shrink: 0;
+    width: 280px;
 }
 
 .headshot img {
-    width: 200px;
+    width: 100%;
     height: auto;
     object-fit: cover;
 }
