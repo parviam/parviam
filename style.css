@@ -251,47 +251,6 @@ h1 {
     color: #666;
 }
 
-.post-content details {
-    margin: 1.5rem 0;
-    border: 1px solid #eee;
-    border-radius: 4px;
-    padding: 0;
-}
-
-.post-content details summary {
-    padding: 1rem;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 1.25rem;
-    list-style: none;
-}
-
-.post-content details summary::-webkit-details-marker {
-    display: none;
-}
-
-.post-content details summary::before {
-    content: '▸ ';
-    font-size: 0.9rem;
-    margin-right: 0.5rem;
-}
-
-.post-content details[open] summary::before {
-    content: '▾ ';
-}
-
-.post-content details[open] summary {
-    border-bottom: 1px solid #eee;
-}
-
-.post-content details > *:not(summary) {
-    padding: 0 1rem;
-}
-
-.post-content details > *:last-child {
-    padding-bottom: 1rem;
-}
-
 .post-content code {
     background: #f5f5f5;
     padding: 0.2em 0.4em;
