@@ -1,7 +1,19 @@
 ---
-layout: post
+layout: default
 title: Hi!
-date: 2025-12-15
 ---
 
-If you're looking at this page it's because I bought my friend a domain but they haven't made a website yet. Check out mine instead!
+<article class="post">
+    <header class="post-header">
+        <p class="post-meta">December 15, 2025</p>
+        <h1>{{ page.title }}</h1>
+    </header>
+
+    <div class="post-content">
+        <p>If you're looking at this page it's because I bought my friend a domain but they haven't made a website yet. Check out mine instead!</p>
+    </div>
+
+    <footer class="post-footer">
+        <a href="{{ '/' | relative_url }}">← Back to home</a>
+    </footer>
+</article>
