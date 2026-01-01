@@ -2,6 +2,10 @@
 layout: post
 title: "Seriously, use text expansions"
 date: 2025-12-09
+slug: text-expansions
+redirect_from:
+  - /2025/12/09/Seriously-use-text-expansions.html
+  - /2025/12/09/Seriously-use-text-expansions/
 ---
 
 You probably type some things a lot, especially if you do non-trivial amounts of administrative or communicative work. There are also probably things you would type more if it was easier to\! For instance:

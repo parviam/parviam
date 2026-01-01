@@ -2,8 +2,12 @@ title: Parv Mahajan
 url: https://parvmahajan.com
 description: Personal website of Parv Mahajan
 
+# Clean URL structure for blog posts
+permalink: /blog/:title/
+
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Feed settings
 feed:

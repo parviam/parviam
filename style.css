@@ -275,6 +275,10 @@ h1 {
     padding: 0;
 }
 
+.post-subscribe {
+    margin-top: 3rem;
+}
+
 .post-footer {
     margin-top: 3rem;
     padding-top: 1.5rem;
@@ -339,26 +343,4 @@ h1 {
     border-top: 1px solid #eee;
     color: #666;
     font-size: 0.9rem;
-}
-
-/* Shame button */
-.shame-button {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 0.75rem 1.5rem;
-    background: #000;
-    color: #fff !important;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 0.95rem;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.shame-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.shame-button:active {
-    transform: translateY(0);
 }

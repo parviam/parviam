@@ -2,6 +2,10 @@
 layout: post
 title: "TastyBench: Toward Measuring Research Taste in LLMs"
 date: 2025-12-02
+slug: tastybench-update-0
+redirect_from:
+  - /2025/12/02/2025-tastybench-research-update.html
+  - /2025/12/02/2025-tastybench-research-update/
 ---
 
 *An early-stage research update detailing work done alongside [Yixiong Hao](https://yixionghao.notion.site/Yixiong-Hao-24f92baf2bc5462ba4a550b1234faaca) and [Yilin Huang](https://www.lesswrong.com/users/yilin?from=post_header). Provide [feedback](https://www.lesswrong.com/posts/Mxsy7wYvsCRv5dGrw/tastybench-toward-measuring-research-taste-in-llm) on LessWrong!*
