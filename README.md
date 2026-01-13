@@ -1,6 +1,6 @@
 # Parv Mahajan
 
-[parvmahajan.com](www.parvmahajan.com)
+[parvmahajan.com](https://www.parvmahajan.com)
 
 ---
 
